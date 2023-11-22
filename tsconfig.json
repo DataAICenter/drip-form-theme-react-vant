@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "baseUrl": ".",
+    "outDir": "dist",
+		"strictNullChecks":true,
+		"strict": true,
+		"target": "es5",
+		"moduleResolution": "node",
+		"isolatedModules": true,
+		"jsx": "react",
+		"incremental": false,
+		"declaration": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"resolveJsonModule": true
+	},
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
