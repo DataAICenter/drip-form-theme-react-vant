@@ -1,6 +1,6 @@
 {
   "name": "drip-form-theme-react-vant",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "react-vant theme package for drip-form",
   "repository": {
     "type": "github",
@@ -24,7 +24,11 @@
   "author": "DataAICenter",
   "license": "MIT",
   "files": [
-    "dist"
+    "dist",
+    "src",
+    "scripts",
+    "babel.config.js",
+    "tsconfig.json"
   ],
   "devDependencies": {
     "@babel/cli": "^7.23.0",
@@ -54,21 +58,20 @@
     "rollup-plugin-progress": "^1.1.2",
     "rollup-plugin-terser": "^7.0.2",
     "tslib": "^2.6.2",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
   },
   "dependencies": {
     "@jdfed/hooks": "^0.8.2",
     "@jdfed/utils": "^0.8.2",
     "moment": "^2.26.0",
-    "react": "^18.2.0",
     "react-color": "^2.18.1",
-    "react-dom": "^18.2.0",
-    "react-vant": "^3.3.2",
     "use-immer": "^0.6.0"
   },
   "peerDependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
     "react-vant": "^3.3.2"
   }
 }
